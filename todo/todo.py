@@ -1,16 +1,18 @@
-__all__ =[
-    'Todo',
-]
+# pylint: disable=E0213
+
+import sys
+
+__all__ = ['Todo']
 
 VERSION = '0.1.1'
 
 
-class classproperty(object):
-        def __init__(self, getter):
-            self.getter = getter
+class Classproperty:
+    def __init__(self, getter):
+        self.getter = getter
 
-        def __get__(self, instance, owner):
-           return self.getter(owner)
+    def __get__(self, instance, owner):
+        return self.getter(owner)
 
 
 class Todo:
@@ -20,31 +22,21 @@ class Todo:
     @classmethod
     def add(cls, task):
         cls.items.append(task)
-        return(True, '{task} is added '.format(task=task))
+        return (True, f'{task} is added\n')
 
-    @classproperty
-    def list(cls):
+    @Classproperty
+    def list_todos(cls):
         for index, task in enumerate(cls.items, 1):
-            print('{:04d} : {}'.format(index, task))
-
+            sys.stdout.write('{0:04d} : {1}\n'.format(index, task))
 
     @classmethod
     def complete(cls, index):
         index = index - 1
         removed_task = cls.items.pop(index)
         cls.completed.append(removed_task)
-        return(True, '{} is completed!'.format(removed_task))
+        return (True, f'{removed_task} is completed!\n')
 
-    @classproperty
+    @Classproperty
     def completed_list(cls):
         for index, task in enumerate(cls.completed, 1):
-            print('{:04d} : {}'.format(index, task))
-
-
-if __name__ == '__main__':
-
-
-    import sys
-    sys.argv.append('-v')
-    import doctest
-    doctest.testmod()
+            sys.stdout.write('{0:04d} : {1}\n'.format(index, task))
