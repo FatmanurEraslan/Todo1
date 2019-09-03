@@ -2,7 +2,7 @@
 
 import sys
 
-__all__ = ['Todo']
+__all__ = ['Todo', 'VERSION']
 
 VERSION = '0.1.1'
 
