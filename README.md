@@ -1,6 +1,12 @@
+![Python](https://img.shields.io/badge/python-3.7.2-green.svg)
+
 # Todo1
 
 Commandline `todo` application for internship assignment.
+
+## Requirements
+
+This project requires `Python 3.7.2` or newer run-time.
 
 ## Install
 
