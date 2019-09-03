@@ -1,4 +1,5 @@
 ![Python](https://img.shields.io/badge/python-3.7.2-green.svg)
+![Version](https://img.shields.io/badge/version-0.1.1-yellow.svg)
 
 # Todo1
 
