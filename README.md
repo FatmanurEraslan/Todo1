@@ -23,7 +23,7 @@ or
 
 ```sh
 
-$ pip install FNEtodo  
+$ pip install FNE-todo  
 
 ```
 
