@@ -19,7 +19,7 @@ $ cd Todo1
 $ python 3 setup.py install
 ```
 
-###or
+#or
 
 ```sh
 
@@ -86,7 +86,7 @@ $  todo completed
 
 ```sh
 
-$  todo added 'Visit grandpa' 'Go to shopping mall'
+$  todo add 'Visit grandpa' 'Go to shopping mall'
 
 ```
 Visit grandpa is added .
