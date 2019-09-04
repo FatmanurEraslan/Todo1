@@ -11,15 +11,53 @@ This project requires `Python 3.7.2` or newer run-time.
 
 ## Install
 
-@wip
+'''sh
+cd $home
+git clone  https://github.com/FatmanurEraslan/Todo1.git
+cd Todo1
+python 3 setup.py install
+'''
 
-## Development
 
-@wip
+###or
+
+pip install FNEtodo
+
+
+
 
 ## License
 
 This project is licensed under MIT
+
+##USAGE
+
+$ todo add 'Buy a ticket'
+
+Buy a ticket is added .
+
+0001 : Buy a ticket
+
+$ todo add 'Clean the house'
+
+Clean the house is added .
+
+0001 : Buy a ticket
+0002 : Clean the house
+
+$ todo complete 1
+Buy a ticket is completed!
+
+0001 : Clean the house
+
+$todo list
+
+0001 : Clean the house
+
+$todo completed
+
+0001 : Buy a ticket
+
 
 ## Contributer(s)
 
