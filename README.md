@@ -19,7 +19,7 @@ $ cd Todo1
 $ python 3 setup.py install
 ```
 
-#or
+or
 
 ```sh
 
@@ -40,9 +40,9 @@ $ todo add 'Buy a ticket'
 
 ```
 
-Buy a ticket is added .
+   Buy a ticket is added .
 
-0001 : Buy a ticket
+   0001 : Buy a ticket
 
 ```sh
 
@@ -50,10 +50,10 @@ $  todo add 'Clean the house'
 
 ```
 
-Clean the house is added .
+  Clean the house is added .
 
-0001 : Buy a ticket
-0002 : Clean the house
+  0001 : Buy a ticket
+  0002 : Clean the house
 
 
 ```sh
@@ -62,9 +62,9 @@ $  todo complete 1
 
 ```
 
-Buy a ticket is completed!
+  Buy a ticket is completed!
 
-0001 : Clean the house
+  0001 : Clean the house
 
 
 ```sh
@@ -72,7 +72,7 @@ Buy a ticket is completed!
 $  todo list
 
 ```
-0001 : Clean the house
+  0001 : Clean the house
 
 
 ```sh
@@ -81,7 +81,7 @@ $  todo completed
 
 ```
 
-0001 : Buy a ticket
+  0001 : Buy a ticket
 
 
 ```sh
@@ -89,13 +89,13 @@ $  todo completed
 $  todo add 'Visit grandpa' 'Go to shopping mall'
 
 ```
-Visit grandpa is added .
+  Visit grandpa is added .
 
-Go to shopping mall is added .
+  Go to shopping mall is added .
 
-0001 : Clean the house
-0002 : Visit grandpa
-0003 : Go to shopping mall
+  0001 : Clean the house
+  0002 : Visit grandpa
+  0003 : Go to shopping mall
 
 ## Contributer(s)
 
