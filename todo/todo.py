@@ -22,7 +22,7 @@ class Todo:
     @classmethod
     def add(cls, task):
         cls.items.append(task)
-        return (True, f'{task} is added\n')
+        return (True, f'{task} is added .\n')
 
     @Classproperty
     def list_todos(cls):
