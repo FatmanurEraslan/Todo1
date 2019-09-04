@@ -9,7 +9,7 @@ def readme():
 
 
 setup(
-    name='FNEtodo',
+    name='FNE-todo',
     version=VERSION,
     description='Simple command-line Todo app.',
     long_description=readme(),
