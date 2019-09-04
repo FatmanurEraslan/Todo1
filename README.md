@@ -11,18 +11,21 @@ This project requires `Python 3.7.2` or newer run-time.
 
 ## Install
 
-'''sh
-cd $home
-git clone  https://github.com/FatmanurEraslan/Todo1.git
-cd Todo1
-python 3 setup.py install
-'''
 
+```sh
+$ cd $home  
+$ git clone  https://github.com/FatmanurEraslan/Todo1.git
+$ cd Todo1
+$ python 3 setup.py install
+```
 
 ###or
 
-pip install FNEtodo
+```sh
 
+$ pip install FNEtodo  
+
+```
 
 
 
@@ -30,34 +33,69 @@ pip install FNEtodo
 
 This project is licensed under MIT
 
-##USAGE
+## Usage
+```sh
 
 $ todo add 'Buy a ticket'
+
+```
 
 Buy a ticket is added .
 
 0001 : Buy a ticket
 
-$ todo add 'Clean the house'
+```sh
+
+$  todo add 'Clean the house'
+
+```
 
 Clean the house is added .
 
 0001 : Buy a ticket
 0002 : Clean the house
 
-$ todo complete 1
+
+```sh
+
+$  todo complete 1
+
+```
+
 Buy a ticket is completed!
 
 0001 : Clean the house
 
-$todo list
 
+```sh
+
+$  todo list
+
+```
 0001 : Clean the house
 
-$todo completed
+
+```sh
+
+$  todo completed
+
+```
 
 0001 : Buy a ticket
 
+
+```sh
+
+$  todo added 'Visit grandpa' 'Go to shopping mall'
+
+```
+Visit grandpa is added .
+
+Go to shopping mall is added .
+
+0001 : Clean the house
+0002 : Visit grandpa
+0003 : Go to shopping mall
 
 ## Contributer(s)
 
